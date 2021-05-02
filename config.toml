@@ -1,0 +1,8 @@
+baseURL = ""
+languageCode = "en-us"
+summaryLength = 15
+title = "My New Hugo Site"
+[[menu.footer]]
+name = "Home"
+url = "/"
+weight = 1

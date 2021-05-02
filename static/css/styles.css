@@ -1,0 +1,135 @@
+/* TYPOGRAPHY */
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+body p {
+    line-height: 1.7;
+    font-family: 'Poppins', sans-serif;
+}
+
+body a {
+    transition: .3s;
+}
+
+body a:hover {
+    color: #7D2D35;
+    transition: .3s;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* OVERWRITE */
+
+.primary-svg svg {
+    color: #7D2D35;
+}
+
+.uk-white {
+    color: #fff;
+}
+
+.uk-black {
+    color: #000;
+}
+
+p.hr-dark {
+    color: #01031f;
+}
+
+.uk-dim {
+    color: rgb(187 187 187 / 70%);
+}
+
+a.uk-button.uk-button-secondary {
+    background: #fff;
+    color: #01031f;
+    border-radius: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+a.uk-button.uk-button-primary,
+button.uk-button.uk-button-primary {
+    background: #7D2D35;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a:hover {
+    text-decoration: none!important;
+}
+
+.accent {
+    color: #7D2D35;
+}
+
+.uk-padding-xlarge {
+    padding: 120px;
+}
+
+/* NAVBAR */
+
+ul.uk-navbar-nav>li>a {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* HERO */
+
+ul.hero-slide li div {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+
+}
+
+
+/* SERVICE */
+
+.hr-service div.uk-card-default {
+    background: #fff;
+}
+
+/* HOME FEATURED */
+
+@media screen and (max-width: 768px){
+    div.hr-featured {
+        padding: 100px 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    div.hr-featured {
+        height: 250px;
+        padding: 50px;
+    }
+}
+
+@media screen and (min-width: 1087px) {
+    div.hr-featured {
+        padding: 100px;
+        height: 250px;
+    }
+}
+
+
+/* FOOTER */
+
+footer {
+    background: #222;
+}
+
+.hr-legals li {
+    display: inline-block;
+    margin-right: 10px;
+}
