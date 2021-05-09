@@ -87,10 +87,14 @@ ul.uk-navbar-nav>li>a {
 
 /* HERO */
 
-ul.hero-slide li div {
+/* ul.hero-slide li div {
     background: rgba(0, 0, 0, 0.7);
     padding: 40px;
 
+} */
+
+div.uk-overlay-hero {
+    background: rgba(34,34,34,0.5);
 }
 
 
