@@ -126,6 +126,12 @@ div.uk-overlay-hero {
     }
 }
 
+/* PAGES ABOUT */
+
+div.about h2 {
+    font-weight:800;
+    margin: 0;
+}
 
 /* FOOTER */
 
