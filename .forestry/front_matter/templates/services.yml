@@ -17,10 +17,3 @@ fields:
   config: {}
   template: seo
   label: SEO
-pages:
-- content/services/gardening.md
-- content/services/junk-removal.md
-- content/services/landscaping.md
-- content/services/pavers.md
-- content/services/tree-service.md
-- content/services/water-installation.md
