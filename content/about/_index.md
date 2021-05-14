@@ -1,4 +1,5 @@
 +++
+body = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi officiis in officia repellendus quaerat aliquam, quos id, est eius repudiandae laboriosam numquam maxime quia dignissimos at enim, nobis architecto amet!"
 title = "About"
 [menu.footer]
 name = "About Us"
