@@ -5,8 +5,10 @@ name = "About Us"
 weight = 3
 
 +++
-### We Care About Your Business
+#### We Care About Your Business
 
-Landscaping Tecpoyotl Inc. is a licensed, and insured business. As an industry leader in landscaping in surrounding areas of Orange County, San Bernardino County, and Riverside County, we provide the most quality service and is responsible for servicing big commercial and many residential areas. Using only the best quality and supplies, we take great pride in our business and providing customer satisfaction is our goal.
+## DISCOVER OUR STORY
 
-Ready to work with us? Landscaping Tecpoyotl Inc. will invest our time to ensure a complete landscaping plan is prepared right for you. We have worked with many successful communities and are ready to help you.
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi officiis in officia repellendus quaerat aliquam, quos id, est eius repudiandae laboriosam numquam maxime quia dignissimos at enim, nobis architecto amet!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi officiis in officia repellendus quaerat aliquam, quos id, est eius repudiandae laboriosam numquam maxime quia dignissimos at enim, nobis architecto amet!
+
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi officiis in officia repellendus quaerat aliquam, quos id, est eius repudiandae laboriosam numquam maxime quia dignissimos at enim, nobis architecto amet!
