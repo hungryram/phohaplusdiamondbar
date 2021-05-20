@@ -1,4 +1,79 @@
 ---
 label: Menu
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: appetizer
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Appetizer
+- name: beef_noodle_soup
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Beef Noodle Soup
+- name: specialty_soups
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Specialty Soups
+- name: vermicelli
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Vermicelli
+- name: fried_rice
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Fried Rice
+- name: stir_fry
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Stir Fry
+- name: veggie_dishes
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Veggie Dishes
+- name: beverages
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Beverages
+- name: desserts
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Desserts
+- name: vietnamese_sandwich
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Vietnamese Sandwich
