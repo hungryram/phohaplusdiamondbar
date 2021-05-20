@@ -25,15 +25,21 @@ fields:
     config:
       required: false
     label: Vietnamese Name
-  - name: price
-    type: textarea
-    default: ''
+  - name: price_1
+    type: text
     config:
       required: false
-      wysiwyg: true
-      schema:
-        format: markdown
-    label: Price
+    label: Price 1
+  - name: price_2
+    type: text
+    config:
+      required: false
+    label: Price 2
+  - name: price_3
+    type: text
+    config:
+      required: false
+    label: Price 3
   config:
     min: 
     max: 
