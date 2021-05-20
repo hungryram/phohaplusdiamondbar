@@ -1,8 +1,6 @@
 +++
 beverages = []
 desserts = []
-fried_rice = []
-specialty_soups = []
 stir_fry = []
 title = "Menu"
 veggie_dishes = []
@@ -109,5 +107,54 @@ price_1 = "$3.75"
 price_2 = ""
 price_3 = ""
 vietnamese_name = "Thêm Tôm"
+[[fried_rice]]
+description = ""
+name = "SHRIMP / BEEF"
+price_1 = "$10.95"
+price_2 = ""
+price_3 = ""
+vietnamese_name = "Cơm Chiên Tôm / Bơ"
+[[fried_rice]]
+description = "(Shrimp, Chicken And Vietnamese Sausage)"
+name = "COMBINATION"
+price_1 = "$11.95"
+price_2 = ""
+price_3 = ""
+vietnamese_name = "Cơm Chiên Thập Cẩm"
+[[fried_rice]]
+description = ""
+name = "CHICKEN"
+price_1 = "$10.95"
+price_2 = ""
+price_3 = ""
+vietnamese_name = "Cơm Chiên Gà"
+[[fried_rice]]
+description = "(Shrimp, Squid And Fish Cake)"
+name = "SEAFOOD"
+price_1 = "$12.95"
+price_2 = ""
+price_3 = ""
+vietnamese_name = "Cơm Chiên Đó Biến"
+[[specialty_soups]]
+description = ""
+name = "CHICKEN OR SHRIMP NOODLE SOUP"
+price_1 = "$13.95"
+price_2 = ""
+price_3 = ""
+vietnamese_name = "Phở Gà / Phở Tôm"
+[[specialty_soups]]
+description = ""
+name = "SEAFOOD NOODLE SOUP"
+price_1 = "$14.95"
+price_2 = ""
+price_3 = ""
+vietnamese_name = "Phở Đồ Biển "
+[[specialty_soups]]
+description = ""
+name = "BEEF STEW SERVE W/ RICE, NOODLE OR BREAD"
+price_1 = "$13.95"
+price_2 = ""
+price_3 = ""
+vietnamese_name = "Bò Kho Hủ Tiếu, Cốm Hoặc Bánh Mì "
 
 +++
