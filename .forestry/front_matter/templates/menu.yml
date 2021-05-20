@@ -26,9 +26,13 @@ fields:
       required: false
     label: Vietnamese Name
   - name: price
-    type: text
+    type: textarea
+    default: ''
     config:
       required: false
+      wysiwyg: false
+      schema:
+        format: markdown
     label: Price
   config:
     min: 
