@@ -98,3 +98,5 @@ fields:
     max: 
     labelField: 
   label: Vietnamese Sandwich
+pages:
+- content/menu/_index.md
