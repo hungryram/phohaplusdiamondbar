@@ -13,21 +13,33 @@ vietnamese_sandwich = []
 description = "(Shrimp, Pork, Shredded Salad, Herbs & Rice Vermicelli, Freshly Wrapped In Rice Paper Served With Seasoned Peanut Sauce And Pickle Carrot)"
 name = "Spring Rolls"
 price = "$5.75 (2 ROLLS)\n\n$7.25 (3 ROLLS)\n\n$8.75 (5 ROLLS)"
+price_1 = "$5.75 (2 ROLLS)"
+price_2 = "$7.25 (3 ROLLS)"
+price_3 = "$8.75 (4 ROLLS)"
 vietnamese_name = "Gỏi Cuốn"
 [[appetizer]]
 description = "(Crispy Fried Rolls Of Ground Pork, Chicken, Cloud Mushroom, Shredded Carrot, Shredded Taro & Bean Thread Noodle Served With Salad And Seasoned Fish Sauce)"
 name = "Vietnamese Egg Rolls"
 price = "$5.75 (2 ROLLS)"
+price_1 = ""
+price_2 = ""
+price_3 = ""
 vietnamese_name = "Chả Giò"
 [[appetizer]]
 description = ""
 name = "Fried Tofu"
 price = "$7.95"
+price_1 = ""
+price_2 = ""
+price_3 = ""
 vietnamese_name = "Đậu Hũ Chiên Giòn"
 [[appetizer]]
 description = ""
 name = "Bone Marrow"
 price = "$13.95"
+price_1 = ""
+price_2 = ""
+price_3 = ""
 vietnamese_name = "Xí Quách"
 
 +++
