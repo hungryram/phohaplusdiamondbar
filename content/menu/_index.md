@@ -107,11 +107,6 @@ description = ""
 name = "COLD OR HOT FRENCH ROASTED COFFEE"
 price_1 = "$4.75"
 vietnamese_name = ""
-[[beverages]]
-description = ""
-name = ""
-price_1 = ""
-vietnamese_name = ""
 [[desserts]]
 description = "(Sweetened Red Bean, Mung Bean, And Green Jello In Coconut Milk)"
 name = "TRI-COLOR DESSERT"
