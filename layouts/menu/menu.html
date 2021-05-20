@@ -1,7 +1,48 @@
 {{ define "main" }}
 <div class="uk-section">
-    <div class="uk-container">
-        
+    <div class="uk-container uk-container-small">
+        <ul class="menu-accordian" uk-accordion>
+            <li class="uk-open">
+                <a class="uk-accordion-title uk-text-uppercase" href="#">Appetizers</a>
+                <div class="uk-accordion-content">
+                    {{ range .Params.appetizer }}
+                    <div class="uk-grid-small" uk-grid>
+                        <div class="uk-width-expand">
+                            <span class="uk-h4 uk-text-bold uk-text-uppercase">{{ .name }}</span><br>
+                            {{ if .description }}<em class="uk-text-muted uk-text-small">{{ .description }}</em><br>{{ end }}
+                            <span>{{ .vietnamese_name }}</span>
+                        </div>
+                        <div class="uk-margin-small-left">
+                            {{ .price_1 }}<br>
+                            {{ if .price_2 }}{{ .price_2 }}<br>{{ end }}
+                            {{ if .price_3 }}{{ .price_3 }}<br>{{ end }}
+                        </div>
+                    </div> 
+                    <hr>
+                    {{ end }}
+                </div>
+            </li>
+
+            <li>
+                <a class="uk-accordion-title uk-text-uppercase" href="#">Appetizers</a>
+                <div class="uk-accordion-content">
+                    {{ range .Params.appetizer }}
+                    <div class="uk-grid-small" uk-grid>
+                        <div class="uk-width-expand">
+                            <span class="uk-h4 uk-text-bold uk-text-uppercase">{{ .name }}</span><br>
+                            {{ if .description }}<em class="uk-text-muted uk-text-small">{{ .description }}</em><br>{{ end }}
+                            <span>{{ .vietnamese_name }}</span>
+                        </div>
+                        <div class="uk-margin-small-left">
+                            {{ .price_1 }}<br>
+                            {{ if .price_2 }}{{ .price_2 }}<br>{{ end }}
+                            {{ if .price_3 }}{{ .price_3 }}<br>{{ end }}
+                        </div>                    </div> 
+                    <hr>
+                    {{ end }}
+                </div>
+            </li>
+        </ul>
     </div>
 </div>
 {{ end }}

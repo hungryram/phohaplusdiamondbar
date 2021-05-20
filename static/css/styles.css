@@ -132,6 +132,14 @@ div.about h2 {
     font-weight:800;
     margin: 0;
 }
+/* MENU */
+
+a.uk-accordion-title {
+    color: #fff;
+    background: #894149;
+    padding: 20px;
+}
+
 
 /* FOOTER */
 
