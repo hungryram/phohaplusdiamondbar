@@ -337,6 +337,21 @@ fields:
     config:
       required: false
     label: Name
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+  - name: vietnamese_name
+    type: text
+    config:
+      required: false
+    label: Vietnamese Name
+  - name: price_1
+    type: text
+    config:
+      required: false
+    label: Price 1
   config:
     min: 
     max: 
