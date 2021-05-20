@@ -12,7 +12,7 @@ vietnamese_sandwich = []
 [[appetizer]]
 description = "(Shrimp, Pork, Shredded Salad, Herbs & Rice Vermicelli, Freshly Wrapped In Rice Paper Served With Seasoned Peanut Sauce And Pickle Carrot)"
 name = "Spring Rolls"
-price = "$5.75 (2 ROLLS)\n$7.25 (3 ROLLS)\n$8.75 (4 ROLLS)"
+price = "$5.75 (2 ROLLS)\n\n$7.25 (3 ROLLS)\n\n$8.75 (4 ROLLS)"
 vietnamese_name = "Gỏi Cuốn"
 [[appetizer]]
 description = "(Crispy Fried Rolls Of Ground Pork, Chicken, Cloud Mushroom, Shredded Carrot, Shredded Taro & Bean Thread Noodle Served With Salad And Seasoned Fish Sauce)"
