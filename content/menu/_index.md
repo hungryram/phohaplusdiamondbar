@@ -1,11 +1,6 @@
 +++
-beverages = []
-desserts = []
-stir_fry = []
 title = "Menu"
-veggie_dishes = []
 vermicelli = []
-vietnamese_sandwich = []
 [[appetizer]]
 description = "(Shrimp, Pork, Shredded Salad, Herbs & Rice Vermicelli, Freshly Wrapped In Rice Paper Served With Seasoned Peanut Sauce And Pickle Carrot)"
 name = "Spring Rolls"
@@ -107,6 +102,21 @@ price_1 = "$3.75"
 price_2 = ""
 price_3 = ""
 vietnamese_name = "Thêm Tôm"
+[[beverages]]
+description = ""
+name = "COLD OR HOT FRENCH ROASTED COFFEE"
+price_1 = "$4.75"
+vietnamese_name = ""
+[[beverages]]
+description = ""
+name = ""
+price_1 = ""
+vietnamese_name = ""
+[[desserts]]
+description = "(Sweetened Red Bean, Mung Bean, And Green Jello In Coconut Milk)"
+name = "TRI-COLOR DESSERT"
+price_1 = "$4.95"
+vietnamese_name = "Chế 3 Màu   "
 [[fried_rice]]
 description = ""
 name = "SHRIMP / BEEF"
@@ -156,5 +166,45 @@ price_1 = "$13.95"
 price_2 = ""
 price_3 = ""
 vietnamese_name = "Bò Kho Hủ Tiếu, Cốm Hoặc Bánh Mì "
+[[stir_fry]]
+description = "(Stir Fried Diced Rib Eye Steaks Over Salad)"
+name = "SPECIAL SHAKEN BEEF"
+price_1 = "8OZ- $17.75"
+price_2 = "12OZ- $24.95"
+price_3 = "$2.00"
+vietnamese_name = ""
+[[stir_fry]]
+description = ""
+name = "STIR FRIED PLATES W/ MIXED VEGETABLE"
+price_1 = "COMBO- $12.95"
+price_2 = "SEAFOOD ONLY- $13.95"
+price_3 = ""
+vietnamese_name = ""
+[[stir_fry]]
+description = "(With Mixed Vegetable Over Crispy Chow Mein)"
+name = "STIR FRIED SHRIMP, SQUID, CHICKEN OR SEAFOOD"
+price_1 = "$13.95 / $14.95"
+price_2 = ""
+price_3 = ""
+vietnamese_name = ""
+[[veggie_dishes]]
+description = "(Tofu, Shredded Salad, Herbs & Rice Vermicelli Freshly Wrapped In Rice Paper Served W/ Seasoned Peanut Sauce Or Fish Sauce)"
+name = "VEGETARIAN SPRING ROLLS"
+price_1 = "$7.75 (3 ROLLS)"
+price_2 = "$8.45 (4 ROLLS)"
+price_3 = ""
+vietnamese_name = "Gỏi Cuốn Chay(3 Hoặc 4 Cuốn)   "
+[[veggie_dishes]]
+description = "(W/ Tofu & Mixed Vegetable, Chicken Or Mushroom Broth)"
+name = "VEGETARIAN NOODLE SOUP"
+price_1 = "$9.95"
+price_2 = ""
+price_3 = ""
+vietnamese_name = "Phở Chay   "
+[[vietnamese_sandwich]]
+description = ""
+name = "COLD CUT SANDWICH"
+price_1 = "$7.95"
+vietnamese_name = "Bánh Mì Thịt Nguội   "
 
 +++
