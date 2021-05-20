@@ -47,6 +47,37 @@ fields:
   label: Appetizer
 - name: beef_noodle_soup
   type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+  - name: vietnamese_name
+    type: text
+    config:
+      required: false
+    label: Vietnamese Name
+  - name: price_1
+    type: text
+    config:
+      required: false
+    label: Price 1
+  - name: price_2
+    type: text
+    config:
+      required: false
+    label: Price 2
+  - name: price_3
+    type: text
+    config:
+      required: false
+    label: Price 3
   config:
     min: 
     max: 
@@ -54,6 +85,37 @@ fields:
   label: Beef Noodle Soup
 - name: specialty_soups
   type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+  - name: vietnamese_name
+    type: text
+    config:
+      required: false
+    label: Vietnamese Name
+  - name: price_1
+    type: text
+    config:
+      required: false
+    label: Price 1
+  - name: price_2
+    type: text
+    config:
+      required: false
+    label: Price 2
+  - name: price_3
+    type: text
+    config:
+      required: false
+    label: Price 3
   config:
     min: 
     max: 
@@ -61,6 +123,37 @@ fields:
   label: Specialty Soups
 - name: vermicelli
   type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+  - name: vietnamese_name
+    type: text
+    config:
+      required: false
+    label: Vietnamese Name
+  - name: price_1
+    type: text
+    config:
+      required: false
+    label: Price 1
+  - name: price_2
+    type: text
+    config:
+      required: false
+    label: Price 2
+  - name: price_3
+    type: text
+    config:
+      required: false
+    label: Price 3
   config:
     min: 
     max: 
@@ -68,6 +161,37 @@ fields:
   label: Vermicelli
 - name: fried_rice
   type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+  - name: vietnamese_name
+    type: text
+    config:
+      required: false
+    label: Vietnamese Name
+  - name: price_1
+    type: text
+    config:
+      required: false
+    label: Price 1
+  - name: price_2
+    type: text
+    config:
+      required: false
+    label: Price 2
+  - name: price_3
+    type: text
+    config:
+      required: false
+    label: Price 3
   config:
     min: 
     max: 
@@ -75,6 +199,37 @@ fields:
   label: Fried Rice
 - name: stir_fry
   type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+  - name: vietnamese_name
+    type: text
+    config:
+      required: false
+    label: Vietnamese Name
+  - name: price_1
+    type: text
+    config:
+      required: false
+    label: Price 1
+  - name: price_2
+    type: text
+    config:
+      required: false
+    label: Price 2
+  - name: price_3
+    type: text
+    config:
+      required: false
+    label: Price 3
   config:
     min: 
     max: 
@@ -82,6 +237,37 @@ fields:
   label: Stir Fry
 - name: veggie_dishes
   type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+  - name: vietnamese_name
+    type: text
+    config:
+      required: false
+    label: Vietnamese Name
+  - name: price_1
+    type: text
+    config:
+      required: false
+    label: Price 1
+  - name: price_2
+    type: text
+    config:
+      required: false
+    label: Price 2
+  - name: price_3
+    type: text
+    config:
+      required: false
+    label: Price 3
   config:
     min: 
     max: 
@@ -89,6 +275,27 @@ fields:
   label: Veggie Dishes
 - name: beverages
   type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+  - name: vietnamese_name
+    type: text
+    config:
+      required: false
+    label: Vietnamese Name
+  - name: price_1
+    type: text
+    config:
+      required: false
+    label: Price 1
   config:
     min: 
     max: 
@@ -96,6 +303,27 @@ fields:
   label: Beverages
 - name: desserts
   type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+  - name: vietnamese_name
+    type: text
+    config:
+      required: false
+    label: Vietnamese Name
+  - name: price_1
+    type: text
+    config:
+      required: false
+    label: Price 1
   config:
     min: 
     max: 
@@ -103,6 +331,27 @@ fields:
   label: Desserts
 - name: vietnamese_sandwich
   type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+  - name: vietnamese_name
+    type: text
+    config:
+      required: false
+    label: Vietnamese Name
+  - name: price_1
+    type: text
+    config:
+      required: false
+    label: Price 1
   config:
     min: 
     max: 
