@@ -7,15 +7,15 @@
                 <div class="uk-accordion-content">
                     {{ range .Params.appetizer }}
                     <div class="uk-grid-small" uk-grid>
-                        <div class="uk-width-expand">
+                        <div class="uk-width-expand uk-margin-small-left">
                             <span class="uk-h4 uk-text-bold uk-text-uppercase">{{ .name }}</span><br>
                             {{ if .description }}<em class="uk-text-muted uk-text-small">{{ .description }}</em><br>{{ end }}
                             <span>{{ .vietnamese_name }}</span>
                         </div>
                         <div class="uk-margin-small-left">
-                            {{ .price_1 }}<br>
-                            {{ if .price_2 }}{{ .price_2 }}<br>{{ end }}
-                            {{ if .price_3 }}{{ .price_3 }}<br>{{ end }}
+                            {{ if .price_1 }}<span class="accent uk-text-bold">{{ .price_1 }}</span><br>{{ end }}
+                            {{ if .price_2 }}<span class="accent uk-text-bold">{{ .price_2 }}</span><br>{{ end }}
+                            {{ if .price_3 }}<span class="accent uk-text-bold">{{ .price_3 }}</span><br>{{ end }}
                         </div>
                     </div> 
                     <hr>
@@ -28,15 +28,155 @@
                 <div class="uk-accordion-content">
                     {{ range .Params.beef_noodle_soup }}
                     <div class="uk-grid-small" uk-grid>
-                        <div class="uk-width-expand">
+                        <div class="uk-width-expand uk-margin-small-left">
                             <span class="uk-h4 uk-text-bold uk-text-uppercase">{{ .name }}</span><br>
                             {{ if .description }}<em class="uk-text-muted uk-text-small">{{ .description }}</em><br>{{ end }}
                             <span>{{ .vietnamese_name }}</span>
                         </div>
                         <div class="uk-margin-small-left">
-                            {{ .price_1 }}<br>
-                            {{ if .price_2 }}{{ .price_2 }}<br>{{ end }}
-                            {{ if .price_3 }}{{ .price_3 }}<br>{{ end }}
+                            {{ if .price_1 }}<span class="accent uk-text-bold">{{ .price_1 }}</span><br>{{ end }}
+                            {{ if .price_2 }}<span class="accent uk-text-bold">{{ .price_2 }}</span><br>{{ end }}
+                            {{ if .price_3 }}<span class="accent uk-text-bold">{{ .price_3 }}</span><br>{{ end }}
+                        </div>                    </div> 
+                    <hr>
+                    {{ end }}
+                </div>
+            </li>
+
+            <li>
+                <a class="uk-accordion-title uk-text-uppercase" href="#">Specialty Soup</a>
+                <div class="uk-accordion-content">
+                    {{ range .Params.specialty_soups }}
+                    <div class="uk-grid-small" uk-grid>
+                        <div class="uk-width-expand uk-margin-small-left">
+                            <span class="uk-h4 uk-text-bold uk-text-uppercase">{{ .name }}</span><br>
+                            {{ if .description }}<em class="uk-text-muted uk-text-small">{{ .description }}</em><br>{{ end }}
+                            <span>{{ .vietnamese_name }}</span>
+                        </div>
+                        <div class="uk-margin-small-left">
+                            {{ if .price_1 }}<span class="accent uk-text-bold">{{ .price_1 }}</span><br>{{ end }}
+                            {{ if .price_2 }}<span class="accent uk-text-bold">{{ .price_2 }}</span><br>{{ end }}
+                            {{ if .price_3 }}<span class="accent uk-text-bold">{{ .price_3 }}</span><br>{{ end }}
+                        </div>                    </div> 
+                    <hr>
+                    {{ end }}
+                </div>
+            </li>
+
+            <li>
+                <a class="uk-accordion-title uk-text-uppercase" href="#">Vermicelli</a>
+                <div class="uk-accordion-content">
+                    {{ range .Params.vermicelli }}
+                    <div class="uk-grid-small" uk-grid>
+                        <div class="uk-width-expand uk-margin-small-left">
+                            <span class="uk-h4 uk-text-bold uk-text-uppercase">{{ .name }}</span><br>
+                            {{ if .description }}<em class="uk-text-muted uk-text-small">{{ .description }}</em><br>{{ end }}
+                            <span>{{ .vietnamese_name }}</span>
+                        </div>
+                        <div class="uk-margin-small-left">
+                            {{ if .price_1 }}<span class="accent uk-text-bold">{{ .price_1 }}</span><br>{{ end }}
+                            {{ if .price_2 }}<span class="accent uk-text-bold">{{ .price_2 }}</span><br>{{ end }}
+                            {{ if .price_3 }}<span class="accent uk-text-bold">{{ .price_3 }}</span><br>{{ end }}
+                        </div>                    </div> 
+                    <hr>
+                    {{ end }}
+                </div>
+            </li>
+
+            <li>
+                <a class="uk-accordion-title uk-text-uppercase" href="#">Fried Rice</a>
+                <div class="uk-accordion-content">
+                    {{ range .Params.fried_rice }}
+                    <div class="uk-grid-small" uk-grid>
+                        <div class="uk-width-expand uk-margin-small-left">
+                            <span class="uk-h4 uk-text-bold uk-text-uppercase">{{ .name }}</span><br>
+                            {{ if .description }}<em class="uk-text-muted uk-text-small">{{ .description }}</em><br>{{ end }}
+                            <span>{{ .vietnamese_name }}</span>
+                        </div>
+                        <div class="uk-margin-small-left">
+                            {{ if .price_1 }}<span class="accent uk-text-bold">{{ .price_1 }}</span><br>{{ end }}
+                            {{ if .price_2 }}<span class="accent uk-text-bold">{{ .price_2 }}</span><br>{{ end }}
+                            {{ if .price_3 }}<span class="accent uk-text-bold">{{ .price_3 }}</span><br>{{ end }}
+                        </div>                    </div> 
+                    <hr>
+                    {{ end }}
+                </div>
+            </li>
+
+            <li>
+                <a class="uk-accordion-title uk-text-uppercase" href="#">Stir Fry</a>
+                <div class="uk-accordion-content">
+                    {{ range .Params.stir_fry }}
+                    <div class="uk-grid-small" uk-grid>
+                        <div class="uk-width-expand uk-margin-small-left">
+                            <span class="uk-h4 uk-text-bold uk-text-uppercase">{{ .name }}</span><br>
+                            {{ if .description }}<em class="uk-text-muted uk-text-small">{{ .description }}</em><br>{{ end }}
+                            <span>{{ .vietnamese_name }}</span>
+                        </div>
+                        <div class="uk-margin-small-left">
+                            {{ if .price_1 }}<span class="accent uk-text-bold">{{ .price_1 }}</span><br>{{ end }}
+                            {{ if .price_2 }}<span class="accent uk-text-bold">{{ .price_2 }}</span><br>{{ end }}
+                            {{ if .price_3 }}<span class="accent uk-text-bold">{{ .price_3 }}</span><br>{{ end }}
+                        </div>                    </div> 
+                    <hr>
+                    {{ end }}
+                </div>
+            </li>
+
+            <li>
+                <a class="uk-accordion-title uk-text-uppercase" href="#">Veggie Dishes</a>
+                <div class="uk-accordion-content">
+                    {{ range .Params.veggie_dishes }}
+                    <div class="uk-grid-small" uk-grid>
+                        <div class="uk-width-expand uk-margin-small-left">
+                            <span class="uk-h4 uk-text-bold uk-text-uppercase">{{ .name }}</span><br>
+                            {{ if .description }}<em class="uk-text-muted uk-text-small">{{ .description }}</em><br>{{ end }}
+                            <span>{{ .vietnamese_name }}</span>
+                        </div>
+                        <div class="uk-margin-small-left">
+                            {{ if .price_1 }}<span class="accent uk-text-bold">{{ .price_1 }}</span><br>{{ end }}
+                            {{ if .price_2 }}<span class="accent uk-text-bold">{{ .price_2 }}</span><br>{{ end }}
+                            {{ if .price_3 }}<span class="accent uk-text-bold">{{ .price_3 }}</span><br>{{ end }}
+                        </div>                    </div> 
+                    <hr>
+                    {{ end }}
+                </div>
+            </li>
+
+            <li>
+                <a class="uk-accordion-title uk-text-uppercase" href="#">Beverages</a>
+                <div class="uk-accordion-content">
+                    {{ range .Params.beverages }}
+                    <div class="uk-grid-small" uk-grid>
+                        <div class="uk-width-expand uk-margin-small-left">
+                            <span class="uk-h4 uk-text-bold uk-text-uppercase">{{ .name }}</span><br>
+                            {{ if .description }}<em class="uk-text-muted uk-text-small">{{ .description }}</em><br>{{ end }}
+                            <span>{{ .vietnamese_name }}</span>
+                        </div>
+                        <div class="uk-margin-small-left">
+                            {{ if .price_1 }}<span class="accent uk-text-bold">{{ .price_1 }}</span><br>{{ end }}
+                            {{ if .price_2 }}<span class="accent uk-text-bold">{{ .price_2 }}</span><br>{{ end }}
+                            {{ if .price_3 }}<span class="accent uk-text-bold">{{ .price_3 }}</span><br>{{ end }}
+                        </div>                    </div> 
+                    <hr>
+                    {{ end }}
+                </div>
+            </li>
+
+            <li>
+                <a class="uk-accordion-title uk-text-uppercase" href="#">Desserts</a>
+                <div class="uk-accordion-content">
+                    {{ range .Params.desserts }}
+                    <div class="uk-grid-small" uk-grid>
+                        <div class="uk-width-expand uk-margin-small-left">
+                            <span class="uk-h4 uk-text-bold uk-text-uppercase">{{ .name }}</span><br>
+                            {{ if .description }}<em class="uk-text-muted uk-text-small">{{ .description }}</em><br>{{ end }}
+                            <span>{{ .vietnamese_name }}</span>
+                        </div>
+                        <div class="uk-margin-small-left">
+                            {{ if .price_1 }}<span class="accent uk-text-bold">{{ .price_1 }}</span><br>{{ end }}
+                            {{ if .price_2 }}<span class="accent uk-text-bold">{{ .price_2 }}</span><br>{{ end }}
+                            {{ if .price_3 }}<span class="accent uk-text-bold">{{ .price_3 }}</span><br>{{ end }}
                         </div>                    </div> 
                     <hr>
                     {{ end }}

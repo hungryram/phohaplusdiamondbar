@@ -136,7 +136,9 @@ div.about h2 {
 
 a.uk-accordion-title {
     color: #fff;
-    background: #894149;
+    background: linear-gradient(rgba(125, 45, 53, 0.9),rgba(125, 45, 53, 0.9)),
+    url("/uploads/pattern2.jpg") no-repeat center;
+    background-size: cover;
     padding: 20px;
 }
 
