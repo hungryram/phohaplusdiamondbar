@@ -1,18 +1,19 @@
 ---
 company_name: Pho Ha Plus Diamond Bar
 social_media:
-  instagram: 'http://instagram.com/phohaplusanaheim'
-  twitter: 'https://twitter.com/phohaplus'
-  facebook: 'https://www.facebook.com/pages/Pho-Ha-Plus/625169071318738'
+  instagram: ''
+  twitter: ''
+  facebook: ''
   pinterest: ''
-  yelp: ''
+  yelp: https://www.yelp.com/biz/pho-ha-plus-diamond-bar-2
 contact_information:
-  name: Luis
-  phone: 909-680-8478
+  name: ''
+  phone: "(909) 444-3388"
   email: info@phohaplusdiamondbar.com
 search_engine_optimization:
   title_tag: Pho Ha Plus Diamond Bar
-  meta_description: 
+  meta_description: Visit Pho Ha Plus and get the best Vietnamese food in Diamond
+    Bar, California. Try our authentic Vietnamese food today!
   twitter_card:
     twitter_username: ''
   facebook:
