@@ -4,12 +4,11 @@
         <div uk-grid>
             <div class="uk-width-1-2@s">
                 <h2 class="uk-text-bold">Get in touch</h2>
-                <!-- <p class="uk-text-light">The team at Landscaping Tecpoyotl is ready to help you with your landscaping needs and any inquiries you may have. Send us a message using the form and our team will reach out as soon as possible.</p> -->
                 <p>{{ .Params.body }}</p>
                 <ul class="uk-list primary-svg">
                     <li><a href="mailto:{{ .Site.Data.profile.contact_information.email }}" style="color: #222"><span href="#" uk-icon="icon: mail" class="uk-margin-small-right"></span><span class="uk-text-middle">{{ .Site.Data.profile.contact_information.email }}</span></a></li>
                     <li><a href="tel:{{ .Site.Data.profile.contact_information.phone }}" style="color: #222"><span href="#" uk-icon="icon: phone" class="uk-margin-small-right"></span><span class="uk-text-middle">{{ .Site.Data.profile.contact_information.phone }}</span></a></li>
-                    <li><span href="#" uk-icon="icon: location" class="uk-margin-small-right"></span><span class="uk-text-middle uk-black">21090 Golden Springs Drive Walnut, CA 91789</span></li>
+                    <li><a href="https://goo.gl/maps/G2azL8cKfmm7t3gF6" target="_blank"><span href="#" uk-icon="icon: location" class="uk-margin-small-right"></span><span class="uk-text-middle uk-black">21090 Golden Springs Drive Walnut, CA 91789</span></a></li>
                   </ul>
                   <ul class="uk-list">
                       <li><strong>Hours</strong></li>
@@ -30,25 +29,25 @@
                 <div>
                     <form action="/thank-you" class="uk-grid-small" uk-grid data-netlify="true" name="Contact Form" method="POST" data-netlify-recaptcha="true">
                         <div class="uk-width-1-2@s">
-                            <input class="uk-input" type="text" placeholder="Name" name="name">
+                            <input class="uk-input" type="text" placeholder="Name" name="name" required>
                         </div>
                         <div class="uk-width-1-2@s">
-                            <input class="uk-input" type="text" placeholder="Email" name="email">
+                            <input class="uk-input" type="text" placeholder="Email" name="email" required>
                         </div>
                         <div class="uk-width-1-2@s">
                             <input class="uk-input" type="text" placeholder="Subject" name="subject">
                         </div>
                         <div class="uk-width-1-2@s">
-                            <input class="uk-input" type="tel" placeholder="phone" name="phone">
+                            <input class="uk-input" type="tel" placeholder="phone" name="phone" required>
                         </div>
                         <div class="uk-width-1-1">
-                            <textarea name="message" id="" cols="30" rows="8" class="uk-textarea" placeholder="Your message"></textarea>
+                            <textarea name="message" id="" cols="30" rows="8" class="uk-textarea" placeholder="Your message" required></textarea>
                         </div>
                         <div class="uk-width-1-1">
                             <button class="uk-button uk-button-primary">Submit Message</button>
                         </div>
                         <div class="uk-width-1-1">
-                            <div data-netlify-recaptcha="true"></div>
+                            <div data-netlify-recaptcha="true" required></div>
                         </div>
                     </form>
                 </div>
