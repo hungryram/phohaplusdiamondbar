@@ -38,6 +38,10 @@ sections:
   create: all
   match: "**/*"
 - type: document
+  path: content/gallery/_index.md
+  label: Gallery
+  match: "**/*"
+- type: document
   path: content/menu/_index.md
   label: Menu
 upload_dir: brian-vu/phohaplusdiamondbar
