@@ -10,31 +10,22 @@ sections:
 - type: document
   path: data/appearance.yaml
   label: Appearance
+- type: document
+  path: content/about/_index.md
+  label: About
+  match: "**/*"
 - type: directory
   path: content
   label: Pages
   create: all
   match: "*"
-- type: directory
-  path: content/services
-  label: Services
-  create: all
-  match: "**/*"
-  templates:
-  - services
-- type: directory
-  path: content/legal
-  label: Legal
-  create: all
+- type: document
+  path: data/featured.yml
+  label: Featured
   match: "**/*"
 - type: directory
   path: content/contact
   label: Contact
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/about
-  label: About
   create: all
   match: "**/*"
 - type: document
@@ -43,6 +34,11 @@ sections:
 - type: document
   path: content/menu/_index.md
   label: Menu
+- type: directory
+  path: content/legal
+  label: Legal
+  create: all
+  match: "**/*"
 upload_dir: brian-vu/phohaplusdiamondbar
 public_path: https://res.cloudinary.com/hungryram19/image/upload
 front_matter_path: ''
