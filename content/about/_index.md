@@ -10,4 +10,6 @@ weight = 3
 
 ## DISCOVER OUR STORY
 
-The Pho Ha name started years ago in the city of Pomona and since then grown into multiple locations spanning throughout the San Gabriel Valley in Los Angeles County and the Inland Empire in San Bernardino County. Using traditional recipes that have been passed down over many years and cultivating them to perfect the best Vietnamese Cuisine. We are known for our Pho (“fuh”) broth which is cooked for a minimum eight hours and includes over 20 different ingredients including bone marrow to give it the rich traditional beef flavor we are known for. We make our sauces in house and use the freshest ingredients to pair with our marinated meats to bring a combination of dishes that originated from Vietnam.
+Pho Ha Plus Vietnamese homestyle cuisine. The menu features eclectic selections of their family's traditional recipes passed down, with only the freshest, high quality ingredients. It's Vietnamese comfort food executed with warmth and excitement. Family gatherings have always been important in Vietnamese culture. When we decided to open PHO HA PLUS recipes were contributed from family from across the world. This menu is the product of our love, our tradition, and our bond. To our patrons, we hope to share the flavors and warmth we enjoyed during these cherished times with our family and friends.
+
+Thank you all for your enthusiasm and support!
