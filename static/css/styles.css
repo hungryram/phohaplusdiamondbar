@@ -85,6 +85,13 @@ ul.uk-navbar-nav>li>a {
     font-size: 16px;
 }
 
+div.uk-offcanvas-bar {
+    background: #7D2D35;
+}
+
+div.uk-offcanvas-bar ul li a {
+    color: #fff!important;
+}
 /* HERO */
 
 /* ul.hero-slide li div {
