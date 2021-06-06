@@ -13,7 +13,6 @@ sections:
 - type: document
   path: content/about/_index.md
   label: About
-  match: "**/*"
 - type: directory
   path: content
   label: Pages
@@ -22,7 +21,6 @@ sections:
 - type: document
   path: data/featured.yml
   label: Featured
-  match: "**/*"
 - type: directory
   path: content/contact
   label: Contact
