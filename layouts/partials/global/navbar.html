@@ -5,7 +5,7 @@
                 <div class="uk-width-auto">
                     <div>
                         <a href="mailto:{{ .Site.Data.profile.contact_information.email }}" class="uk-margin-medium-right uk-white uk-text-small"><span href="#" uk-icon="icon: mail" class="uk-margin-small-right"></span><span class="uk-text-middle">{{ .Site.Data.profile.contact_information.email }}</span></a>
-                        <a href="mailto:{{ .Site.Data.profile.contact_information.phone }}" class="uk-white uk-text-small"><span href="#" uk-icon="icon: receiver" class="uk-margin-small-right uk-white"></span><span class="uk-text-middle">{{ .Site.Data.profile.contact_information.phone }}</span></a>
+                        <a href="tel:{{ .Site.Data.profile.contact_information.phone }}" class="uk-white uk-text-small"><span href="#" uk-icon="icon: receiver" class="uk-margin-small-right uk-white"></span><span class="uk-text-middle">{{ .Site.Data.profile.contact_information.phone }}</span></a>
                     </div>
                 </div>
                 <div class="uk-width-expand uk-text-right">
@@ -73,7 +73,7 @@
                 <li class="uk-nav-divider uk-margin-medium-bottom"></li>
 
                 <a href="mailto:{{ .Site.Data.profile.contact_information.email }}" class="uk-margin-medium-right uk-white uk-text-small"><span class="uk-text-middle">{{ .Site.Data.profile.contact_information.email }}</span></a>
-                <a href="mailto:{{ .Site.Data.profile.contact_information.phone }}" class="uk-white uk-text-small"><span class="uk-text-middle">{{ .Site.Data.profile.contact_information.phone }}</span></a>
+                <a href="tel:{{ .Site.Data.profile.contact_information.phone }}" class="uk-white uk-text-small"><span class="uk-text-middle">{{ .Site.Data.profile.contact_information.phone }}</span></a>
                 {{ if .Site.Data.profile.social_media.instagram }}<li><a href="" class="uk-margin-small-right" uk-icon="icon: instagram; ratio:1"></a></li>{{ end }}
                 {{ if .Site.Data.profile.social_media.facebook }}<li><a href="" class=" uk-margin-small-right" uk-icon="facebook"></a></li>{{ end }}
                 {{ if .Site.Data.profile.social_media.pinterest }}<li><a href="" class=" uk-margin-small-right" uk-icon="pinterest"></a></li>{{ end }}
