@@ -1,4 +1,4 @@
-baseURL = "https://phohaplus.netlify.app/"
+baseURL = "https://phohaplus.com/"
 languageCode = "en-us"
 summaryLength = 15
 [[menu.footer]]
