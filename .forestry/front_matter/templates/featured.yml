@@ -20,3 +20,5 @@ fields:
     max: 
     labelField: 
   label: Featured Food
+pages:
+- data/featured.yml
