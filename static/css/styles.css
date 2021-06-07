@@ -29,6 +29,10 @@ body {
 
 /* OVERWRITE */
 
+div.uk-position-small {
+    margin: 5px;
+}
+
 .primary-svg svg {
     color: #7D2D35;
 }
