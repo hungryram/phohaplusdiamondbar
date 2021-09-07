@@ -39,7 +39,7 @@
     </div>
 <div class="footer-credit">
     <div class="uk-width-1-1 uk-text-center">
-        <p class="uk-light uk-text-small">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.company_name }}  &middot; <a href="https://hungryram.com" target="_blank">Website Developed by Hungry Ram</a></p>
+        <p class="uk-light uk-text-small">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.company_name }}  &middot; <a href="https://hungryram.com" target="_blank" rel="nofollow">Website Developed by Hungry Ram</a></p>
         <ul class="hr-legals uk-margin-remove uk-padding-small">
             {{ range where $.Site.Pages.ByWeight "Type" "legal" }}
             <li class="uk-light uk-text-small"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
