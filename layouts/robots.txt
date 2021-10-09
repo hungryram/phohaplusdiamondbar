@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /thank-you/
+Disallow: /admin/
+Disallow: /404/
+
+Sitemap: {{ .Site.BaseURL }}sitemap.xml

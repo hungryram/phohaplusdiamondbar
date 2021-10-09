@@ -1,6 +1,8 @@
 baseURL = "https://www.phohaplus.com/"
 languageCode = "en-us"
 summaryLength = 15
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
 [[menu.footer]]
 name = "Home"
 url = "/"
