@@ -72,8 +72,8 @@
                 <li><a href="https://order.blogicsystems.com/client/store/2020265/detail/2020265" target="_blank">Order Online</a></li>
                 <li class="uk-nav-divider uk-margin-medium-bottom"></li>
 
-                <a href="mailto:{{ .Site.Data.profile.contact_information.email }}" class="uk-margin-medium-right uk-white uk-text-small"><span class="uk-text-middle">{{ .Site.Data.profile.contact_information.email }}</span></a>
-                <a href="tel:{{ .Site.Data.profile.contact_information.phone }}" class="uk-white uk-text-small"><span class="uk-text-middle">{{ .Site.Data.profile.contact_information.phone }}</span></a>
+                <li><a href="mailto:{{ .Site.Data.profile.contact_information.email }}" class="uk-white uk-text-small"><span class="uk-text-center">Send an email</span></a></li>
+                <li><a href="tel:{{ .Site.Data.profile.contact_information.phone }}" class="uk-white uk-text-small"><span class="uk-text-center">{{ .Site.Data.profile.contact_information.phone }}</span></a></li>
                 {{ if .Site.Data.profile.social_media.instagram }}<li><a href="" class="uk-margin-small-right" uk-icon="icon: instagram; ratio:1"></a></li>{{ end }}
                 {{ if .Site.Data.profile.social_media.facebook }}<li><a href="" class=" uk-margin-small-right" uk-icon="facebook"></a></li>{{ end }}
                 {{ if .Site.Data.profile.social_media.pinterest }}<li><a href="" class=" uk-margin-small-right" uk-icon="pinterest"></a></li>{{ end }}
