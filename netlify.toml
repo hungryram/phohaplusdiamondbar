@@ -1,5 +1,15 @@
 [[redirects]]
-  from = "/*"
+  from = "/about"
+  to = "/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/gallery"
+  to = "/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/contact"
   to = "/"
   status = 301
   force = true
